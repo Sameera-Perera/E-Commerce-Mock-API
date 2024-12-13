@@ -32,5 +32,181 @@
         "email": "dana.white@example.com",
         "password": "DanaPass321#"
       }
-    ]    
+    ],
+    "products": [
+      {
+        "_id": "1",
+        "name": "Wireless Mouse",
+        "description": "Ergonomic wireless mouse with long battery life.",
+        "priceTags": [
+          { "_id": "1-1", "name": "Regular Price", "price": 29.99 },
+          { "_id": "1-2", "name": "Discounted Price", "price": 24.99 }
+        ],
+        "categories": [
+          { "_id": "cat-1", "name": "Electronics" },
+          { "_id": "cat-2", "name": "Accessories" }
+        ],
+        "images": [
+          "https://example.com/images/mouse1.jpg",
+          "https://example.com/images/mouse2.jpg"
+        ],
+        "createdAt": "2024-06-01T10:15:30.000Z",
+        "updatedAt": "2024-06-10T12:30:45.000Z"
+      },
+      {
+        "_id": "2",
+        "name": "Mechanical Keyboard",
+        "description": "RGB mechanical keyboard with custom switches.",
+        "priceTags": [
+          { "_id": "2-1", "name": "Regular Price", "price": 79.99 }
+        ],
+        "categories": [
+          { "_id": "cat-1", "name": "Electronics" },
+          { "_id": "cat-3", "name": "Keyboards" }
+        ],
+        "images": [
+          "https://example.com/images/keyboard1.jpg"
+        ],
+        "createdAt": "2024-05-15T08:20:00.000Z",
+        "updatedAt": "2024-06-05T14:45:00.000Z"
+      },
+      {
+        "_id": "3",
+        "name": "Smartphone",
+        "description": "Latest model smartphone with high-resolution camera.",
+        "priceTags": [
+          { "_id": "3-1", "name": "Regular Price", "price": 999.99 }
+        ],
+        "categories": [
+          { "_id": "cat-1", "name": "Electronics" },
+          { "_id": "cat-4", "name": "Phones" }
+        ],
+        "images": [
+          "https://example.com/images/phone1.jpg",
+          "https://example.com/images/phone2.jpg"
+        ],
+        "createdAt": "2024-04-25T13:10:00.000Z",
+        "updatedAt": "2024-06-01T15:30:00.000Z"
+      },
+      {
+        "_id": "4",
+        "name": "Laptop",
+        "description": "Lightweight laptop for business and travel.",
+        "priceTags": [
+          { "_id": "4-1", "name": "Regular Price", "price": 1299.99 }
+        ],
+        "categories": [
+          { "_id": "cat-1", "name": "Electronics" },
+          { "_id": "cat-5", "name": "Computers" }
+        ],
+        "images": [
+          "https://example.com/images/laptop1.jpg"
+        ],
+        "createdAt": "2024-03-20T09:00:00.000Z",
+        "updatedAt": "2024-04-28T10:20:00.000Z"
+      },
+      {
+        "_id": "5",
+        "name": "Bluetooth Headphones",
+        "description": "Noise-cancelling over-ear headphones.",
+        "priceTags": [
+          { "_id": "5-1", "name": "Regular Price", "price": 199.99 },
+          { "_id": "5-2", "name": "Sale Price", "price": 149.99 }
+        ],
+        "categories": [
+          { "_id": "cat-1", "name": "Electronics" },
+          { "_id": "cat-6", "name": "Audio" }
+        ],
+        "images": [
+          "https://example.com/images/headphones1.jpg"
+        ],
+        "createdAt": "2024-02-15T14:30:00.000Z",
+        "updatedAt": "2024-03-01T16:45:00.000Z"
+      },
+      {
+        "_id": "6",
+        "name": "Desk Lamp",
+        "description": "Adjustable LED desk lamp with multiple brightness settings.",
+        "priceTags": [
+          { "_id": "6-1", "name": "Regular Price", "price": 49.99 }
+        ],
+        "categories": [
+          { "_id": "cat-7", "name": "Home" },
+          { "_id": "cat-8", "name": "Lighting" }
+        ],
+        "images": [
+          "https://example.com/images/lamp1.jpg"
+        ],
+        "createdAt": "2024-06-01T12:00:00.000Z",
+        "updatedAt": "2024-06-11T14:00:00.000Z"
+      },
+      {
+        "_id": "7",
+        "name": "Backpack",
+        "description": "Water-resistant backpack for everyday use.",
+        "priceTags": [
+          { "_id": "7-1", "name": "Regular Price", "price": 59.99 }
+        ],
+        "categories": [
+          { "_id": "cat-9", "name": "Accessories" },
+          { "_id": "cat-10", "name": "Bags" }
+        ],
+        "images": [
+          "https://example.com/images/backpack1.jpg"
+        ],
+        "createdAt": "2024-04-05T09:45:00.000Z",
+        "updatedAt": "2024-05-01T11:20:00.000Z"
+      },
+      {
+        "_id": "8",
+        "name": "Smartwatch",
+        "description": "Fitness tracking smartwatch with heart rate monitor.",
+        "priceTags": [
+          { "_id": "8-1", "name": "Regular Price", "price": 149.99 }
+        ],
+        "categories": [
+          { "_id": "cat-1", "name": "Electronics" },
+          { "_id": "cat-11", "name": "Wearables" }
+        ],
+        "images": [
+          "https://example.com/images/smartwatch1.jpg"
+        ],
+        "createdAt": "2024-03-12T14:15:00.000Z",
+        "updatedAt": "2024-04-10T15:30:00.000Z"
+      },
+      {
+        "_id": "9",
+        "name": "Water Bottle",
+        "description": "Stainless steel insulated water bottle.",
+        "priceTags": [
+          { "_id": "9-1", "name": "Regular Price", "price": 19.99 }
+        ],
+        "categories": [
+          { "_id": "cat-12", "name": "Outdoor" },
+          { "_id": "cat-13", "name": "Hydration" }
+        ],
+        "images": [
+          "https://example.com/images/bottle1.jpg"
+        ],
+        "createdAt": "2024-05-20T08:30:00.000Z",
+        "updatedAt": "2024-06-01T10:15:00.000Z"
+      },
+      {
+        "_id": "10",
+        "name": "Gaming Chair",
+        "description": "Ergonomic gaming chair with lumbar support.",
+        "priceTags": [
+          { "_id": "10-1", "name": "Regular Price", "price": 299.99 }
+        ],
+        "categories": [
+          { "_id": "cat-14", "name": "Furniture" },
+          { "_id": "cat-15", "name": "Gaming" }
+        ],
+        "images": [
+          "https://example.com/images/chair1.jpg"
+        ],
+        "createdAt": "2024-04-01T11:00:00.000Z",
+        "updatedAt": "2024-05-15T13:30:00.000Z"
+      }
+    ]
   }
