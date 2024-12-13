@@ -34,6 +34,34 @@ server.post('/register', (req, res) => {
   }
 });
 
+// Custom route to return products with pagination metadata
+server.get('/products', (req, res) => {
+  const page = parseInt(req.query._page) || 1;
+  const limit = parseInt(req.query._limit) || 10;
+
+  // Get full products data
+  const products = router.db.get('products').value();
+  
+  // Paginate the data manually
+  const startIndex = (page - 1) * limit;
+  const endIndex = startIndex + limit;
+  const paginatedProducts = products.slice(startIndex, endIndex);
+
+  // Calculate pagination metadata
+  const total = products.length;
+  const meta = {
+    limit: limit,
+    pageSize: paginatedProducts.length,
+    total: total
+  };
+
+  // Send the response with meta and data
+  res.jsonp({
+    meta: meta,
+    data: paginatedProducts
+  });
+});
+
 // Use default router
 server.use(router);
 
