@@ -4,11 +4,13 @@
   "description": "e-commerce app static web server",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "sameera perera",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.4"
+    "json-server": "^0.17.4",
+    "nodemon": "^3.1.9"
   }
 }

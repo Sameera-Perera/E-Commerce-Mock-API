@@ -36,305 +36,81 @@
   "products": [
     {
       "_id": "1",
-      "name": "Wireless Mouse",
-      "description": "Ergonomic wireless mouse with long battery life.",
+      "name": "Razer Viper V3 Pro Wireless Esports Gaming Mouse",
+      "description": "The GOAT of wireless esports mice returns to reshape the competitive scene. Featuring a 54 g ultra-lightweight design and best-in-class technologies, the Razer Viper V3 Pro is the undisputed choice for peak performance and handling—the perfect weapon designed with and trusted by pros.",
       "priceTags": [
         {
           "_id": "1-1",
-          "name": "Regular Price",
-          "price": 29.99
+          "name": "Black",
+          "price": 151.99
         },
         {
           "_id": "1-2",
-          "name": "Discounted Price",
-          "price": 24.99
+          "name": "White",
+          "price": 148.91
         }
       ],
       "categories": [
         {
           "_id": "cat-1",
-          "name": "Electronics",
-          "image": "https://example.com/images/alice.jpg"
-        },
-        {
-          "_id": "cat-2",
-          "name": "Accessories",
-          "image": "https://example.com/images/alice.jpg"
+          "name": "Mouse",
+          "image": "https://example.com/images/mouse.jpg"
         }
       ],
       "images": [
-        "https://example.com/images/mouse1.jpg",
-        "https://example.com/images/mouse2.jpg"
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179544/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-1_i1uvec.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179552/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-2_gpinqg.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-3_wk8b6m.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-4_av2vuk.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-5_nev0tq.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-6_zdovsx.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179561/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-7_cqf6wz.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179561/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-8_nd4peg.jpg"
       ],
       "createdAt": "2024-06-01T10:15:30.000Z",
       "updatedAt": "2024-06-10T12:30:45.000Z"
     },
     {
       "_id": "2",
-      "name": "Mechanical Keyboard",
-      "description": "RGB mechanical keyboard with custom switches.",
+      "name": "Bose QuietComfort",
+      "description": "Go beyond the beat and take control of the sound that puts you on top of the world with Bose QuietComfort Wireless Noise Cancelling Headphones. Experience powerful high-fidelity audio with legendary noise cancellation in these wireless Bluetooth headphones that allow you to block everything out but the beat and control what you hear. These Bose wireless headphones feature new custom modes that give you the power to adjust noise cancellation based in the moment and the option to turn on Wind Block to tune out breezy environments.",
       "priceTags": [
         {
           "_id": "2-1",
-          "name": "Regular Price",
-          "price": 79.99
+          "name": "White",
+          "price": 196.00
+        },
+        {
+          "_id": "2-3",
+          "name": "Black",
+          "price": 161.50
+        },
+        {
+          "_id": "2-2",
+          "name": "Sandstone",
+          "price": 199.00
+        },
+        {
+          "_id": "2-3",
+          "name": "Moonstone Blue",
+          "price": 187.95
         }
       ],
       "categories": [
         {
           "_id": "cat-1",
-          "name": "Electronics",
-          "image": "https://example.com/images/alice.jpg"
-        },
-        {
-          "_id": "cat-3",
-          "name": "Keyboards",
-          "image": "https://example.com/images/alice.jpg"
+          "name": "Mouse",
+          "image": "https://example.com/images/mouse.jpg"
         }
       ],
       "images": [
-        "https://example.com/images/keyboard1.jpg"
+        "https://res.cloudinary.com/programming-night/image/upload/v1734184474/E-Shop/Porducts/Bose%20QuietComfort/qbcoq9qtwp3gxcpwow8z.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734184585/E-Shop/Porducts/Bose%20QuietComfort/rkjmn9ryxrbgnnsekemm.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734184592/E-Shop/Porducts/Bose%20QuietComfort/gsjack1ei1fsju9seiau.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734184598/E-Shop/Porducts/Bose%20QuietComfort/i3z7agm7voqvvxdtiolw.jpg"
       ],
-      "createdAt": "2024-05-15T08:20:00.000Z",
-      "updatedAt": "2024-06-05T14:45:00.000Z"
-    },
-    {
-      "_id": "3",
-      "name": "Smartphone",
-      "description": "Latest model smartphone with high-resolution camera.",
-      "priceTags": [
-        {
-          "_id": "3-1",
-          "name": "Regular Price",
-          "price": 999.99
-        }
-      ],
-      "categories": [
-        {
-          "_id": "cat-1",
-          "name": "Electronics",
-          "image": "https://example.com/images/alice.jpg"
-        },
-        {
-          "_id": "cat-4",
-          "name": "Phones",
-          "image": "https://example.com/images/alice.jpg"
-        }
-      ],
-      "images": [
-        "https://example.com/images/phone1.jpg",
-        "https://example.com/images/phone2.jpg"
-      ],
-      "createdAt": "2024-04-25T13:10:00.000Z",
-      "updatedAt": "2024-06-01T15:30:00.000Z"
-    },
-    {
-      "_id": "4",
-      "name": "Laptop",
-      "description": "Lightweight laptop for business and travel.",
-      "priceTags": [
-        {
-          "_id": "4-1",
-          "name": "Regular Price",
-          "price": 1299.99
-        }
-      ],
-      "categories": [
-        {
-          "_id": "cat-1",
-          "name": "Electronics",
-          "image": "https://example.com/images/alice.jpg"
-        },
-        {
-          "_id": "cat-5",
-          "name": "Computers",
-          "image": "https://example.com/images/alice.jpg"
-        }
-      ],
-      "images": [
-        "https://example.com/images/laptop1.jpg"
-      ],
-      "createdAt": "2024-03-20T09:00:00.000Z",
-      "updatedAt": "2024-04-28T10:20:00.000Z"
-    },
-    {
-      "_id": "5",
-      "name": "Bluetooth Headphones",
-      "description": "Noise-cancelling over-ear headphones.",
-      "priceTags": [
-        {
-          "_id": "5-1",
-          "name": "Regular Price",
-          "price": 199.99
-        },
-        {
-          "_id": "5-2",
-          "name": "Sale Price",
-          "price": 149.99
-        }
-      ],
-      "categories": [
-        {
-          "_id": "cat-1",
-          "name": "Electronics",
-          "image": "https://example.com/images/alice.jpg"
-        },
-        {
-          "_id": "cat-6",
-          "name": "Audio",
-          "image": "https://example.com/images/alice.jpg"
-        }
-      ],
-      "images": [
-        "https://example.com/images/headphones1.jpg"
-      ],
-      "createdAt": "2024-02-15T14:30:00.000Z",
-      "updatedAt": "2024-03-01T16:45:00.000Z"
-    },
-    {
-      "_id": "6",
-      "name": "Desk Lamp",
-      "description": "Adjustable LED desk lamp with multiple brightness settings.",
-      "priceTags": [
-        {
-          "_id": "6-1",
-          "name": "Regular Price",
-          "price": 49.99
-        }
-      ],
-      "categories": [
-        {
-          "_id": "cat-7",
-          "name": "Home",
-          "image": "https://example.com/images/alice.jpg"
-        },
-        {
-          "_id": "cat-8",
-          "name": "Lighting",
-          "image": "https://example.com/images/alice.jpg"
-        }
-      ],
-      "images": [
-        "https://example.com/images/lamp1.jpg"
-      ],
-      "createdAt": "2024-06-01T12:00:00.000Z",
-      "updatedAt": "2024-06-11T14:00:00.000Z"
-    },
-    {
-      "_id": "7",
-      "name": "Backpack",
-      "description": "Water-resistant backpack for everyday use.",
-      "priceTags": [
-        {
-          "_id": "7-1",
-          "name": "Regular Price",
-          "price": 59.99
-        }
-      ],
-      "categories": [
-        {
-          "_id": "cat-9",
-          "name": "Accessories",
-          "image": "https://example.com/images/alice.jpg"
-        },
-        {
-          "_id": "cat-10",
-          "name": "Bags",
-          "image": "https://example.com/images/alice.jpg"
-        }
-      ],
-      "images": [
-        "https://example.com/images/backpack1.jpg"
-      ],
-      "createdAt": "2024-04-05T09:45:00.000Z",
-      "updatedAt": "2024-05-01T11:20:00.000Z"
-    },
-    {
-      "_id": "8",
-      "name": "Smartwatch",
-      "description": "Fitness tracking smartwatch with heart rate monitor.",
-      "priceTags": [
-        {
-          "_id": "8-1",
-          "name": "Regular Price",
-          "price": 149.99
-        }
-      ],
-      "categories": [
-        {
-          "_id": "cat-1",
-          "name": "Electronics",
-          "image": "https://example.com/images/alice.jpg"
-        },
-        {
-          "_id": "cat-11",
-          "name": "Wearables",
-          "image": "https://example.com/images/alice.jpg"
-        }
-      ],
-      "images": [
-        "https://example.com/images/smartwatch1.jpg"
-      ],
-      "createdAt": "2024-03-12T14:15:00.000Z",
-      "updatedAt": "2024-04-10T15:30:00.000Z"
-    },
-    {
-      "_id": "9",
-      "name": "Water Bottle",
-      "description": "Stainless steel insulated water bottle.",
-      "priceTags": [
-        {
-          "_id": "9-1",
-          "name": "Regular Price",
-          "price": 19.99
-        }
-      ],
-      "categories": [
-        {
-          "_id": "cat-12",
-          "name": "Outdoor",
-          "image": "https://example.com/images/alice.jpg"
-        },
-        {
-          "_id": "cat-13",
-          "name": "Hydration",
-          "image": "https://example.com/images/alice.jpg"
-        }
-      ],
-      "images": [
-        "https://example.com/images/bottle1.jpg"
-      ],
-      "createdAt": "2024-05-20T08:30:00.000Z",
-      "updatedAt": "2024-06-01T10:15:00.000Z"
-    },
-    {
-      "_id": "10",
-      "name": "Gaming Chair",
-      "description": "Ergonomic gaming chair with lumbar support.",
-      "priceTags": [
-        {
-          "_id": "10-1",
-          "name": "Regular Price",
-          "price": 299.99
-        }
-      ],
-      "categories": [
-        {
-          "_id": "cat-14",
-          "name": "Furniture",
-          "image": "https://example.com/images/alice.jpg"
-        },
-        {
-          "_id": "cat-15",
-          "name": "Gaming",
-          "image": "https://example.com/images/alice.jpg"
-        }
-      ],
-      "images": [
-        "https://example.com/images/chair1.jpg"
-      ],
-      "createdAt": "2024-04-01T11:00:00.000Z",
-      "updatedAt": "2024-05-15T13:30:00.000Z"
+      "createdAt": "2024-06-01T10:15:30.000Z",
+      "updatedAt": "2024-06-10T12:30:45.000Z"
     }
   ]
 }
