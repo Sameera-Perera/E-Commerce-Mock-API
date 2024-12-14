@@ -112,5 +112,32 @@
       "createdAt": "2024-06-01T10:15:30.000Z",
       "updatedAt": "2024-06-10T12:30:45.000Z"
     }
-  ]
+  ],
+  "categories": [
+    {
+      "_id": "1",
+      "name": "Mouse",
+      "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204353/E-Shop/Category/mouse_u2bcoq.jpg"
+    },
+    {
+      "_id": "2",
+      "name": "Keyboard",
+      "image": "https://res.cloudinary.com/programming-night/image/upload/v1734202790/E-Shop/Category/keyboard_bynls8.jpg"
+    },
+    {
+      "_id": "3",
+      "name": "Laptop",
+      "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204635/E-Shop/Category/laptop_mzfy8p.jpg"
+    },
+    {
+      "_id": "4",
+      "name": "Monitor",
+      "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204858/E-Shop/Category/monitor_vopuyn.jpg"
+    },
+    {
+      "_id": "5",
+      "name": "Headphones",
+      "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204911/E-Shop/Category/headphone_ht9fst.jpg"
+    }
+  ]  
 }

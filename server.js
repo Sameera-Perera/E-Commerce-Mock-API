@@ -62,6 +62,13 @@ server.get('/products', (req, res) => {
   });
 });
 
+server.get('/categories', (req, res) => {
+  const categories = router.db.get('categories').value();
+  res.jsonp({
+    data: categories
+  });
+});
+
 // Use default router
 server.use(router);
 
