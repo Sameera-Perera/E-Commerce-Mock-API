@@ -50,7 +50,7 @@ server.get('/products', (req, res) => {
   // Calculate pagination metadata
   const total = products.length;
   const meta = {
-    limit: limit,
+    page: page,
     pageSize: paginatedProducts.length,
     total: total
   };
