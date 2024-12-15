@@ -7,7 +7,7 @@ server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
 // Custom login route
-server.post('/local/login', (req, res) => {
+server.post('/authentication/local/sign-in', (req, res) => {
   const { email, password } = req.body;
   const users = router.db.get('users').value();
 
@@ -20,7 +20,7 @@ server.post('/local/login', (req, res) => {
 });
 
 // Custom register route
-server.post('/local/register', (req, res) => {
+server.post('/authentication/local/sign-up', (req, res) => {
   const { email, password } = req.body;
   const users = router.db.get('users').value();
 
