@@ -8,10 +8,10 @@ server.use(jsonServer.bodyParser);
 
 // Custom login route
 server.post('/authentication/local/sign-in', (req, res) => {
-  const { email, password } = req.body;
+  const { identifier, password } = req.body;
   const users = router.db.get('users').value();
 
-  const user = users.find(u => u.email === email && u.password === password);
+  const user = users.find(u => u.email === identifier && u.password === password);
   if (user) {
     res.jsonp({ token: 'fake-jwt-token', user });
   } else {
@@ -21,14 +21,14 @@ server.post('/authentication/local/sign-in', (req, res) => {
 
 // Custom register route
 server.post('/authentication/local/sign-up', (req, res) => {
-  const { email, password } = req.body;
+  const { identifier, password } = req.body;
   const users = router.db.get('users').value();
 
-  const existingUser = users.find(u => u.email === email);
+  const existingUser = users.find(u => u.email === identifier);
   if (existingUser) {
     res.status(400).jsonp({ error: 'User already exists' });
   } else {
-    const newUser = { id: users.length + 1, email, password };
+    const newUser = { id: users.length + 1, identifier, password };
     router.db.get('users').push(newUser).write();
     res.status(201).jsonp(newUser);
   }
