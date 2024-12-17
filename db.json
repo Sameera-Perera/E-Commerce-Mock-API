@@ -81,17 +81,17 @@
           "price": 196.00
         },
         {
-          "_id": "2-3",
+          "_id": "2-2",
           "name": "Black",
           "price": 161.50
         },
         {
-          "_id": "2-2",
+          "_id": "2-3",
           "name": "Sandstone",
           "price": 199.00
         },
         {
-          "_id": "2-3",
+          "_id": "2-4",
           "name": "Moonstone Blue",
           "price": 187.95
         }
@@ -111,31 +111,97 @@
       ],
       "createdAt": "2024-06-01T10:15:30.000Z",
       "updatedAt": "2024-06-10T12:30:45.000Z"
+    },
+    {
+      "_id": "3",
+      "name": "Razer Viper V2 Pro",
+      "description": "Enjoy ultra-responsive, low-latency gaming with lightning-fast speed that outperforms other wireless tech. Streamline your setup and free up a USB port by connecting your wireless mouse and keyboard to a single dongle—a multi-device support feature available in our latest Razer HyperSpeed peripherals.",
+      "priceTags": [
+        {
+          "_id": "3-1",
+          "name": "Black",
+          "price": 79.99
+        },
+        {
+          "_id": "3-2",
+          "name": "PUBG Edition",
+          "price": 106.80
+        }
+      ],
+      "categories": [
+        {
+          "_id": "cat-1",
+          "name": "Mouse",
+          "image": "https://example.com/images/mouse.jpg"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452475/E-Shop/Porducts/Razer%20Viper%20V2%20Pro/img-1_tiwcpx.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452474/E-Shop/Porducts/Razer%20Viper%20V2%20Pro/img-2_vnbwly.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452474/E-Shop/Porducts/Razer%20Viper%20V2%20Pro/img-4_s7vebl.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452474/E-Shop/Porducts/Razer%20Viper%20V2%20Pro/img-3_lixe41.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452473/E-Shop/Porducts/Razer%20Viper%20V2%20Pro/img-5_srjbst.jpg"
+      ],
+      "createdAt": "2024-06-01T10:15:30.000Z",
+      "updatedAt": "2024-06-10T12:30:45.000Z"
+    },
+    {
+      "_id": "4",
+      "name": "ASUS ROG Strix G16 (2024) Gaming Laptop",
+      "description": "Raise your game and carry your squad with the new ROG Strix G16, a powerful gaming laptop that features Windows 11, a 13th Gen Intel Core processor, and an NVIDIA® GeForce RTX™ 40 Series Laptop GPU. With DDR5-4800MHz memory and PCIe Gen4 SSD, this laptop is designed to provide lightning-fast performance and minimize loading times. The ROG Intelligent Cooling system with upgraded liquid metal on the CPU and Tri-Fan Technology, ensures that the laptop can handle the power it can deliver.",
+      "priceTags": [
+        {
+          "_id": "4-1",
+          "name": "2023 Model",
+          "price": 1310.00
+        },
+        {
+          "_id": "4-2",
+          "name": "2024 Model",
+          "price": 1262.73
+        }
+      ],
+      "categories": [
+        {
+          "_id": "cat-3",
+          "name": "Laptop",
+          "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204635/E-Shop/Category/laptop_mzfy8p.jpg"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452946/E-Shop/Porducts/ASUS%20ROG%20Strix%20G16%20%282024%29%20Gaming%20Laptop/img-1_xx7zlz.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452945/E-Shop/Porducts/ASUS%20ROG%20Strix%20G16%20%282024%29%20Gaming%20Laptop/img-2_kujma5.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452945/E-Shop/Porducts/ASUS%20ROG%20Strix%20G16%20%282024%29%20Gaming%20Laptop/img-3_qmdviv.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452943/E-Shop/Porducts/ASUS%20ROG%20Strix%20G16%20%282024%29%20Gaming%20Laptop/img-4_v1r1uu.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452943/E-Shop/Porducts/ASUS%20ROG%20Strix%20G16%20%282024%29%20Gaming%20Laptop/img-5_fg1tvy.jpg"
+      ],
+      "createdAt": "2024-06-01T10:15:30.000Z",
+      "updatedAt": "2024-06-10T12:30:45.000Z"
     }
   ],
   "categories": [
     {
-      "_id": "1",
+      "_id": "cat-1",
       "name": "Mouse",
       "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204353/E-Shop/Category/mouse_u2bcoq.jpg"
     },
     {
-      "_id": "2",
+      "_id": "cat-2",
       "name": "Keyboard",
       "image": "https://res.cloudinary.com/programming-night/image/upload/v1734202790/E-Shop/Category/keyboard_bynls8.jpg"
     },
     {
-      "_id": "3",
+      "_id": "cat-3",
       "name": "Laptop",
       "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204635/E-Shop/Category/laptop_mzfy8p.jpg"
     },
     {
-      "_id": "4",
+      "_id": "cat-4",
       "name": "Monitor",
       "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204858/E-Shop/Category/monitor_vopuyn.jpg"
     },
     {
-      "_id": "5",
+      "_id": "cat-5",
       "name": "Headphones",
       "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204911/E-Shop/Category/headphone_ht9fst.jpg"
     }
