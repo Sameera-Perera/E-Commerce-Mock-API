@@ -205,5 +205,51 @@
       "name": "Headphones",
       "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204911/E-Shop/Category/headphone_ht9fst.jpg"
     }
+  ],
+  "carts": [
+    {
+      "_id": "1",
+      "product": {
+        "_id": "1",
+        "name": "Razer Viper V3 Pro Wireless Esports Gaming Mouse",
+        "description": "The GOAT of wireless esports mice returns to reshape the competitive scene. Featuring a 54 g ultra-lightweight design and best-in-class technologies, the Razer Viper V3 Pro is the undisputed choice for peak performance and handling—the perfect weapon designed with and trusted by pros.",
+        "priceTags": [
+          {
+            "_id": "1-1",
+            "name": "Black",
+            "price": 151.99
+          },
+          {
+            "_id": "1-2",
+            "name": "White",
+            "price": 148.91
+          }
+        ],
+        "categories": [
+          {
+            "_id": "cat-1",
+            "name": "Mouse",
+            "image": "https://example.com/images/mouse.jpg"
+          }
+        ],
+        "images": [
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179544/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-1_i1uvec.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179552/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-2_gpinqg.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-3_wk8b6m.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-4_av2vuk.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-5_nev0tq.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-6_zdovsx.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179561/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-7_cqf6wz.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179561/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-8_nd4peg.jpg"
+        ],
+        "createdAt": "2024-06-01T10:15:30.000Z",
+        "updatedAt": "2024-06-10T12:30:45.000Z"
+      },
+      "priceTag": {
+        "_id": "1-1",
+        "name": "Black",
+        "price": 151.99
+      }
+    }
   ]  
 }

@@ -69,6 +69,13 @@ server.get('/categories', (req, res) => {
   });
 });
 
+server.post('/carts/sync', (req, res) => {
+  const carts = router.db.get('carts').value();
+  res.jsonp({
+    data: carts
+  });
+});
+
 // Use default router
 server.use(router);
 
