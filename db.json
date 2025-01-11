@@ -177,6 +177,71 @@
       ],
       "createdAt": "2024-06-01T10:15:30.000Z",
       "updatedAt": "2024-06-10T12:30:45.000Z"
+    },
+    {
+      "_id": "5",
+      "name": "Razer DeathAdder Essential",
+      "description": "Razer DeathAdder Essential - White - Essential gaming mouse with 6,400 DPI optical sensor.",
+      "priceTags": [
+        {
+          "_id": "5-1",
+          "name": "Mercury White",
+          "price": 18.99
+        },
+        {
+          "_id": "5-2",
+          "name": "Classic Black",
+          "price": 29.68
+        }
+      ],
+      "categories": [
+        {
+          "_id": "cat-1",
+          "name": "Mouse",
+          "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204353/E-Shop/Category/mouse_u2bcoq.jpg"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/programming-night/image/upload/v1736616995/E-Shop/Porducts/Razer%20DeathAdder%20Essential%20-%20White/img-2_nwpysc.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736616995/E-Shop/Porducts/Razer%20DeathAdder%20Essential%20-%20White/img-1_ldlzxv.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736616997/E-Shop/Porducts/Razer%20DeathAdder%20Essential%20-%20White/img-3_hbwo2x.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736616999/E-Shop/Porducts/Razer%20DeathAdder%20Essential%20-%20White/img-4_rq8umh.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736617002/E-Shop/Porducts/Razer%20DeathAdder%20Essential%20-%20White/img-5_dzlglh.jpg"
+      ],
+      "createdAt": "2024-06-01T10:15:30.000Z",
+      "updatedAt": "2024-06-10T12:30:45.000Z"
+    },
+    {
+      "_id": "6",
+      "name": "Rapoo MT760 Multi-Device Wireless Mouse",
+      "description": "Rapoo MT760 supports bluetooth 5.0 and 2.4GHz multi-mode connection, which can be used to switch back and forth between office computer/laptop/cell phone/ipad via bluetooth or the included USB dongle, and the low-power, low-latency, and high-efficiency bluetooth wireless mouse allows you to face all kinds of complicated matters with ease.",
+      "priceTags": [
+        {
+          "_id": "6-1",
+          "name": "Light Grey",
+          "price": 49.99
+        },
+        {
+          "_id": "6-2",
+          "name": "Matte Black",
+          "price": 29.68
+        }
+      ],
+      "categories": [
+        {
+          "_id": "cat-1",
+          "name": "Mouse",
+          "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204353/E-Shop/Category/mouse_u2bcoq.jpg"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/programming-night/image/upload/v1736619653/E-Shop/Porducts/Rapoo%20MT760%20Multi-Device%20Wireless%20Mouse%2C%20Bluetooth%205.0/img-1_pa4cph.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736619655/E-Shop/Porducts/Rapoo%20MT760%20Multi-Device%20Wireless%20Mouse%2C%20Bluetooth%205.0/img-2_g4ejel.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736619659/E-Shop/Porducts/Rapoo%20MT760%20Multi-Device%20Wireless%20Mouse%2C%20Bluetooth%205.0/img-3_nzbkts.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736619661/E-Shop/Porducts/Rapoo%20MT760%20Multi-Device%20Wireless%20Mouse%2C%20Bluetooth%205.0/img-4_xcy3tw.jpg"      
+      ],
+      "createdAt": "2024-06-01T10:15:30.000Z",
+      "updatedAt": "2024-06-10T12:30:45.000Z"
     }
   ],
   "categories": [
@@ -251,5 +316,153 @@
         "price": 151.99
       }
     }
-  ]  
+  ],
+  "delivery-info": [
+    {
+      "_id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "addressLineOne": "123 Main Street",
+      "addressLineTwo": "Apt 4B",
+      "city": "New York",
+      "zipCode": "10001",
+      "contactNumber": "1234567890"
+    },
+    {
+      "_id": "2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "addressLineOne": "456 Elm Street",
+      "addressLineTwo": "",
+      "city": "Los Angeles",
+      "zipCode": "90001",
+      "contactNumber": "9876543210"
+    },
+    {
+      "_id": "3",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "addressLineOne": "789 Oak Avenue",
+      "addressLineTwo": "Suite 100",
+      "city": "Chicago",
+      "zipCode": "60601",
+      "contactNumber": "5551234567"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "ESHOP-1000001234",
+      "orderItems": [
+        {
+          "_id": "ESHOP-1000001223",
+          "product": {
+            "_id": "2",
+            "name": "Bose QuietComfort",
+            "description": "Go beyond the beat and take control of the sound that puts you on top of the world with Bose QuietComfort Wireless Noise Cancelling Headphones. Experience powerful high-fidelity audio with legendary noise cancellation in these wireless Bluetooth headphones that allow you to block everything out but the beat and control what you hear. These Bose wireless headphones feature new custom modes that give you the power to adjust noise cancellation based in the moment and the option to turn on Wind Block to tune out breezy environments.",
+            "priceTags": [
+              {
+                "_id": "2-1",
+                "name": "White",
+                "price": 196.00
+              },
+              {
+                "_id": "2-2",
+                "name": "Black",
+                "price": 161.50
+              },
+              {
+                "_id": "2-3",
+                "name": "Sandstone",
+                "price": 199.00
+              },
+              {
+                "_id": "2-4",
+                "name": "Moonstone Blue",
+                "price": 187.95
+              }
+            ],
+            "categories": [
+              {
+                "_id": "cat-1",
+                "name": "Mouse",
+                "image": "https://example.com/images/mouse.jpg"
+              }
+            ],
+            "images": [
+              "https://res.cloudinary.com/programming-night/image/upload/v1734184474/E-Shop/Porducts/Bose%20QuietComfort/qbcoq9qtwp3gxcpwow8z.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734184585/E-Shop/Porducts/Bose%20QuietComfort/rkjmn9ryxrbgnnsekemm.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734184592/E-Shop/Porducts/Bose%20QuietComfort/gsjack1ei1fsju9seiau.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734184598/E-Shop/Porducts/Bose%20QuietComfort/i3z7agm7voqvvxdtiolw.jpg"
+            ],
+            "createdAt": "2024-06-01T10:15:30.000Z",
+            "updatedAt": "2024-06-10T12:30:45.000Z"
+          },
+          "priceTag": {
+            "_id": "2-4",
+            "name": "Moonstone Blue",
+            "price": 187.95
+          },
+          "price": 25.99,
+          "quantity": 2
+        },
+        {
+          "_id": "ESHOP-1000001245",
+          "product": {
+            "_id": "1",
+            "name": "Razer Viper V3 Pro Wireless Esports Gaming Mouse",
+            "description": "The GOAT of wireless esports mice returns to reshape the competitive scene. Featuring a 54 g ultra-lightweight design and best-in-class technologies, the Razer Viper V3 Pro is the undisputed choice for peak performance and handling—the perfect weapon designed with and trusted by pros.",
+            "priceTags": [
+              {
+                "_id": "1-1",
+                "name": "Black",
+                "price": 151.99
+              },
+              {
+                "_id": "1-2",
+                "name": "White",
+                "price": 148.91
+              }
+            ],
+            "categories": [
+              {
+                "_id": "cat-1",
+                "name": "Mouse",
+                "image": "https://example.com/images/mouse.jpg"
+              }
+            ],
+            "images": [
+              "https://res.cloudinary.com/programming-night/image/upload/v1734179544/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-1_i1uvec.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734179552/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-2_gpinqg.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-3_wk8b6m.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-4_av2vuk.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-5_nev0tq.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-6_zdovsx.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734179561/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-7_cqf6wz.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734179561/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-8_nd4peg.jpg"
+            ],
+            "createdAt": "2024-06-01T10:15:30.000Z",
+            "updatedAt": "2024-06-10T12:30:45.000Z"
+          },
+          "priceTag": {
+            "_id": "1-2",
+            "name": "White",
+            "price": 148.91
+          },
+          "price": 59.99,
+          "quantity": 1
+        }
+      ],
+      "deliveryInfo": {
+        "_id": "1",
+        "firstName": "John",
+        "lastName": "Doe",
+        "addressLineOne": "123 Main Street",
+        "addressLineTwo": "Apt 4B",
+        "city": "New York",
+        "zipCode": "10001",
+        "contactNumber": "1234567890"
+      },
+      "discount": 10
+    }
+  ]
 }
